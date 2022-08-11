@@ -1,0 +1,11 @@
+.navbar > img {
+  width: 150px;
+  padding: 20px;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  box-shadow: 10px 10px 12px 10px rgb(240, 237, 237);
+  border-radius: 2%;
+}
