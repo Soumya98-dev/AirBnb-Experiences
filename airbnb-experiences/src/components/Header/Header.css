@@ -1,0 +1,24 @@
+.header-part > img {
+  width: 900px;
+  height: 422px;
+}
+
+.header-part {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.header-part > h1, p{
+    text-align: left;
+    margin-left: 8rem;
+}
+.header-part h1{
+    font-size: 50px;
+}
+
+.header-part > p{
+    color: #222222;
+    margin-top:1rem;
+    width:28%;
+    font-size: 20px;
+}
