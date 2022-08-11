@@ -8,17 +8,38 @@
   margin: 2rem 0;
 }
 
-.header-part > h1, p{
-    text-align: left;
-    margin-left: 8rem;
-}
-.header-part h1{
-    font-size: 50px;
+.header-h1, .header-p {
+  text-align: left;
+  margin-left: 8rem;
 }
 
-.header-part > p{
-    color: #222222;
-    margin-top:1rem;
-    width:28%;
-    font-size: 20px;
+.header-h1 {
+  font-size: 50px;
+}
+
+.header-p {
+  color: #222222;
+  margin-top: 1rem;
+  width: 28%;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-part > img {
+    width: 320px;
+    height: 300px;
+  }
+  .header-h1,.header-p {
+    text-align: left;
+    margin-left: 2rem;
+  }
+  .header-p {
+    margin-top: 1rem;
+    width: 80%;
+    font-size: 18px;
+  }
+  .header-h1 {
+    margin-top: 2rem;
+    font-size: 32px;
+  }
 }
