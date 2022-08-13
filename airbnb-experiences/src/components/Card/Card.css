@@ -3,6 +3,9 @@
   flex-direction: column;
   position: relative;
   margin-left: 8rem;
+  width: 230px;
+  flex: 0 0 auto;
+  margin-bottom: 30px;
 }
 
 .sold-out {
@@ -13,7 +16,7 @@
   left: 10px;
   padding: 5px 8px;
   border-radius: 10%;
-  font-weight: 900;
+  /* font-weight: 900; */
 }
 
 .card-image > img {
@@ -32,7 +35,8 @@
 
 .card-title > p {
   margin-top: 8px;
-  font-size: 20px;
+  font-size: 18px;
+  width: 100%;
 }
 
 .card-pricing {
@@ -54,11 +58,11 @@
   .card-rating > span {
     font-size: 18px;
   }
-  .card-title > p{
+  .card-title > p {
     margin-top: 5px;
     font-size: 18px;
   }
-  .card-pricing{
+  .card-pricing {
     font-size: 18px;
     margin-top: 5px;
   }

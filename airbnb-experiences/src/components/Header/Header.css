@@ -1,6 +1,7 @@
 .header-part > img {
-  width: 900px;
-  height: 422px;
+  width: 90%;
+  /* height: 422px; */
+  height: 550px;
 }
 
 .header-part {
@@ -8,7 +9,8 @@
   margin: 2rem 0;
 }
 
-.header-h1, .header-p {
+.header-h1,
+.header-p {
   text-align: left;
   margin-left: 8rem;
 }
@@ -26,10 +28,11 @@
 
 @media only screen and (max-width: 1000px) {
   .header-part > img {
-    width: 320px;
-    height: 300px;
+    width: 90%;
+    height: 500px;
   }
-  .header-h1,.header-p {
+  .header-h1,
+  .header-p {
     text-align: left;
     margin-left: 2rem;
   }
